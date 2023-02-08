@@ -1,0 +1,15 @@
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/bin/Debug/net7.0/ironsoft_challenge
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/bin/Debug/net7.0/ironsoft_challenge.deps.json
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/bin/Debug/net7.0/ironsoft_challenge.runtimeconfig.json
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/bin/Debug/net7.0/ironsoft_challenge.dll
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/bin/Debug/net7.0/ironsoft_challenge.pdb
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/obj/Debug/net7.0/ironsoft_challenge.csproj.AssemblyReference.cache
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/obj/Debug/net7.0/ironsoft_challenge.GeneratedMSBuildEditorConfig.editorconfig
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/obj/Debug/net7.0/ironsoft_challenge.AssemblyInfoInputs.cache
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/obj/Debug/net7.0/ironsoft_challenge.AssemblyInfo.cs
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/obj/Debug/net7.0/ironsoft_challenge.csproj.CoreCompileInputs.cache
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/obj/Debug/net7.0/ironsoft_challenge.dll
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/obj/Debug/net7.0/refint/ironsoft_challenge.dll
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/obj/Debug/net7.0/ironsoft_challenge.pdb
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/obj/Debug/net7.0/ironsoft_challenge.genruntimeconfig.cache
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/obj/Debug/net7.0/ref/ironsoft_challenge.dll

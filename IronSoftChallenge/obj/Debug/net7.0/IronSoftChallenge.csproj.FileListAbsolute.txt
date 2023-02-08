@@ -1,0 +1,17 @@
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/obj/Debug/net7.0/IronSoftChallenge.csproj.AssemblyReference.cache
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/obj/Debug/net7.0/IronSoftChallenge.GeneratedMSBuildEditorConfig.editorconfig
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/obj/Debug/net7.0/IronSoftChallenge.AssemblyInfoInputs.cache
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/obj/Debug/net7.0/IronSoftChallenge.AssemblyInfo.cs
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/obj/Debug/net7.0/IronSoftChallenge.csproj.CoreCompileInputs.cache
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/bin/Debug/net7.0/IronSoftChallenge
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/bin/Debug/net7.0/IronSoftChallenge.deps.json
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/bin/Debug/net7.0/IronSoftChallenge.runtimeconfig.json
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/bin/Debug/net7.0/IronSoftChallenge.dll
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/bin/Debug/net7.0/IronSoftChallenge.pdb
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/bin/Debug/net7.0/nunit.framework.dll
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/obj/Debug/net7.0/IronSoftChallenge.csproj.CopyComplete
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/obj/Debug/net7.0/IronSoftChallenge.dll
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/obj/Debug/net7.0/refint/IronSoftChallenge.dll
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/obj/Debug/net7.0/IronSoftChallenge.pdb
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/obj/Debug/net7.0/IronSoftChallenge.genruntimeconfig.cache
+/Users/larkincrain/Documents/Interviews/ironsoft/ironsoft_challenge/IronSoftChallenge/obj/Debug/net7.0/ref/IronSoftChallenge.dll

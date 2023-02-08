@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "ironsoft_challenge/1.0.0": {
+        "runtime": {
+          "ironsoft_challenge.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ironsoft_challenge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
