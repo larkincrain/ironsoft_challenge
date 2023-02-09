@@ -1,4 +1,5 @@
 using System;
+using System.Text.RegularExpressions;
 
 namespace IronSoftChallenge {
 
@@ -17,11 +18,18 @@ namespace IronSoftChallenge {
             { "0", " "}
         };
 
-        public static string OldPhonePad(string input) {
+        /// <summary>
+        /// Given an input string of T9 characters, return the corresponding text.
+        /// </summary>
+        /// <param name="input">The input string, which will be checked for correctness of T9 characters </param>
+        /// <returns> The QWERTY text that was represented by the T9 character input </returns>
+        public static String OldPhonePad(string input) {
 
             // check for invalid input
-            if (input[input.Length - 1] != '#') throw new Exception("Invalid Input, no # at the end");
-            if (input.IndexOf('#') < input.Length - 1) throw new Exception("Invalid Input, # must be at the end");
+            if (input.Length == 0) throw new Exception("Invalid Input, no input.");
+            if (Regex.Matches(input, @"[^\d\s#\*]").Count > 0) throw new Exception("Invalid Input, invalid characters.");
+            if (input[input.Length - 1] != '#') throw new Exception("Invalid Input, no # at the end.");
+            if (input.IndexOf('#') < input.Length - 1) throw new Exception("Invalid Input, # must be at the end.");
 
             List<string> substrings = new List<string>();
             substrings = splitInputIntoSubstrings(input);
@@ -50,22 +58,38 @@ namespace IronSoftChallenge {
             return output;
         }
 
+        /// <summary>
+        /// Given an input string of T9 characters, return a series of substrings
+        /// of grouped identical digits. Each substring represents a single
+        /// character.
+        /// </summary>
+        /// <param name="input">The input string of T9 characters </param>
+        /// <returns> A list of substrings of grouped identical digits </returns>
         private static List<string> splitInputIntoSubstrings(string input) {
 
             List<string> substrings = new List<string>();
             int count = 0;
 
+            // loop through all characters of the input text, grouping together
+            // similar digits, stopping matching when a different digit is found
+            // (including spaces, * or #)
             while (count < input.Length) {
 
-                int nextCount = count + 1;
-                while (nextCount < input.Length && input[nextCount] == input[count]) {
-                    nextCount++;
+                int innerCount = count + 1;
+                while (innerCount < input.Length && input[innerCount] == input[count]) {
+                    // move the matching group size counter forward while the digits 
+                    // found are the same
+                    innerCount++;
                 }
 
-                substrings.Add(input.Substring(count, nextCount - count));
-                count = nextCount;
+                // found a matching group, add it to the list of substrings
+                substrings.Add(input.Substring(count, innerCount - count));
+
+                // move the counter to the end of the matching group
+                count = innerCount;
             }
 
+            // remove any empty strings from the list 
             substrings = substrings.Where(s => !string.IsNullOrEmpty(s)).ToList();
             return substrings;
         }

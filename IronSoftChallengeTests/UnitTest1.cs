@@ -10,6 +10,15 @@ public class Tests
     }
 
     [Test]
+    public void ItShouldParseCabCorrectly()
+    {
+        string input = "222 2 22#";
+        string expected = "cab";
+        string actual = T9Converter.OldPhonePad(input);
+        Assert.AreEqual(expected, actual);
+    }
+
+    [Test]
     public void ItShouldParseDoubleSimilarDigitsCorrectly()
     {
         string input = "33#";
@@ -119,6 +128,27 @@ public class Tests
     public void ItShouldThrowAnExceptionIfInputDoesNotEndWithAHashCharacter()
     {
         string input = "1 11 111 1111";
+        Assert.Catch<Exception>(() => T9Converter.OldPhonePad(input));
+    }
+
+    [Test]
+    public void ItShouldThrowAnExceptionIfNoInputIsProvided()
+    {
+        string input = "";
+        Assert.Catch<Exception>(() => T9Converter.OldPhonePad(input));
+    }
+
+    [Test]
+    public void ItShouldThrowAnExceptionIfNonT9CharactersArePresent()
+    {
+        string input = "thisisnotvalid";
+        Assert.Catch<Exception>(() => T9Converter.OldPhonePad(input));
+    }
+
+    [Test]
+    public void ItShouldThrowAnExceptionIfNonT9CharactersArePresentWithHash()
+    {
+        string input = "thisisnotvalid#";
         Assert.Catch<Exception>(() => T9Converter.OldPhonePad(input));
     }
 
