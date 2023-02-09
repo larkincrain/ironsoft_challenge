@@ -11,7 +11,7 @@ public static String OldPhonePad(string input) {
 ```
 
 ### Running the Program
-Navigate to the ```\IronSoftChallenge``` directory and run the following command: ```dotnet run``
+Navigate to the ```\IronSoftChallenge``` directory and run the following command: ```dotnet run```
 
 ### Running the Tests
-Navigate to the ```\IronSoftChallengeTests``` directory and run the following command: ```dotnet test``
+Navigate to the ```\IronSoftChallengeTests``` directory and run the following command: ```dotnet test```
