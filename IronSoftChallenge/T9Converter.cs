@@ -5,6 +5,8 @@ namespace IronSoftChallenge {
 
     public static class T9Converter {
 
+        // A dictionary that maps a digit to a string of characters representing
+        // options for that digit
         private static Dictionary<string, string> _digitToCharacterMap = new Dictionary<string, string>() {
             { "1", "&'()" },
             { "2", "abc" },
@@ -44,8 +46,8 @@ namespace IronSoftChallenge {
                     // find the string of characters associated to the digit
                     // and take the correct character from the string
                     // using the remainder of the length of the substring and the
-                    // length of the string of characters
-                    string value = _digitToCharacterMap[substring.Substring(0, 1)];
+                    // length of the string of characters associated with that digit
+                    string value = _digitToCharacterMap[firstDigit];
                     output += value.Substring((lengthOfSubstring - 1) % value.Length, 1);
                 } else if (firstDigit == "*") {
                     // backspace, remove the last character
