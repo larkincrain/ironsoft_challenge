@@ -33,14 +33,11 @@ namespace IronSoftChallenge {
             if (input[input.Length - 1] != '#') throw new Exception("Invalid Input, no # at the end.");
             if (input.IndexOf('#') < input.Length - 1) throw new Exception("Invalid Input, # must be at the end.");
 
-            List<string> substrings = new List<string>();
-            substrings = splitInputIntoSubstrings(input);
-
+            List<string> substrings = splitInputIntoSubstrings(input);
             string output = "";
 
             foreach (string substring in substrings) {
                 string firstDigit = substring.Substring(0, 1);
-                int lengthOfSubstring = substring.Length;
 
                 if (_digitToCharacterMap.ContainsKey(firstDigit)) {
                     // find the string of characters associated to the digit
@@ -48,10 +45,10 @@ namespace IronSoftChallenge {
                     // using the remainder of the length of the substring and the
                     // length of the string of characters associated with that digit
                     string value = _digitToCharacterMap[firstDigit];
-                    output += value.Substring((lengthOfSubstring - 1) % value.Length, 1);
+                    output += value.Substring((substring.Length - 1) % value.Length, 1);
                 } else if (firstDigit == "*") {
                     // backspace, remove the last character
-                    for (int count = 0; count < lengthOfSubstring; count++ ) {
+                    for (int count = 0; count < substring.Length; count++ ) {
                         if (output.Length > 0) output = output.Substring(0, output.Length - 1);
                     }
                 }
